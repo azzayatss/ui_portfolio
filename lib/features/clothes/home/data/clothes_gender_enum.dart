@@ -1,0 +1,4 @@
+enum ClothesGender {
+  man,
+  woman,
+}

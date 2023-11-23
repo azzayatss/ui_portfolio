@@ -1,0 +1,232 @@
+name: clothes_app
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  go_router: ^12.0.1
+  gap: ^3.0.1
+  dotted_border: ^2.1.0
+  carousel_slider: ^4.2.1
+  flutter_hooks: ^0.20.3
+  hooks_riverpod: ^2.4.5
+  animations: ^2.0.8
+  uuid: ^4.1.0
+  flutter_staggered_animations: ^1.1.1
+  bouncerwidget: ^0.0.5
+  typethis: ^0.0.1
+  flutter_rating_bar: ^4.0.1
+  google_fonts: ^6.1.0
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/logo.png
+    - assets/images/img.png
+    - assets/images/img1.png
+    - assets/images/img2.png
+    - assets/images/img3.png
+    - assets/images/img4.png
+    - assets/images/img5.png
+    - assets/images/img6.png
+    - assets/images/img7.png
+    - assets/images/img8.png
+    - assets/images/img9.png
+    - assets/images/img10.png
+    - assets/images/img11.png
+    - assets/images/img12.png
+    - assets/images/img13.png
+    - assets/images/img14.png
+    - assets/images/img15.png
+    - assets/images/img16.png
+    - assets/images/img17.png
+    - assets/images/img18.png
+    - assets/images/img19.png
+    - assets/images/img20.png
+    - assets/images/img21.png
+    - assets/images/img22.png
+    - assets/images/img23.png
+    - assets/images/img24.png
+    - assets/images/img25.png
+    - assets/images/img26.png
+    - assets/images/img27.png
+    - assets/images/img28.png
+    - assets/images/img29.png
+    - assets/images/img30.png
+    - assets/images/img31.png
+    - assets/images/img32.png
+    - assets/images/img33.png
+    - assets/images/img34.png
+    - assets/images/img35.png
+    - assets/images/img36.png
+    - assets/images/img37.png
+    - assets/images/img38.png
+    - assets/images/img39.png
+    - assets/images/img40.png
+    - assets/images/img41.png
+    - assets/images/img42.png
+    - assets/images/img43.png
+    - assets/images/img44.png
+    - assets/images/img45.png
+    - assets/images/img46.png
+    - assets/images/img47.png
+    - assets/images/img48.png
+    - assets/images/img49.png
+    - assets/images/img50.png
+
+    - assets/icons/icon_1.png
+    - assets/icons/icon_2.png
+    - assets/icons/icon_3.png
+    - assets/icons/icon_4.png
+    - assets/icons/icon_5.png
+    - assets/icons/icon_6.png
+    - assets/icons/icon_7.png
+    - assets/icons/icon_8.png
+    - assets/icons/icon_9.png
+    - assets/icons/icon_10.png
+    - assets/icons/icon_11.png
+    - assets/icons/icon_12.png
+    - assets/icons/icon_13.png
+    - assets/icons/icon_14.png
+    - assets/icons/icon_15.png
+    - assets/icons/icon_16.png
+    - assets/icons/icon_17.png
+    - assets/icons/icon_18.png
+    - assets/icons/icon_19.png
+    - assets/icons/icon_20.png
+    - assets/icons/icon_21.png
+    - assets/icons/icon_22.png
+    - assets/icons/icon_23.png
+    - assets/icons/icon_24.png
+    - assets/icons/icon_25.png
+    - assets/icons/icon_26.png
+    - assets/icons/icon_27.png
+    - assets/icons/icon_28.png
+    - assets/icons/icon_29.png
+    - assets/icons/icon_30.png
+    - assets/icons/icon_31.png
+    - assets/icons/icon_32.png
+    - assets/icons/icon_33.png
+    - assets/icons/icon_34.png
+    - assets/icons/icon_35.png
+    - assets/icons/icon_36.png
+    - assets/icons/icon_37.png
+    - assets/icons/icon_38.png
+    - assets/icons/icon_39.png
+    - assets/icons/icon_40.png
+    - assets/icons/icon_41.png
+    - assets/icons/icon_42.png
+    - assets/icons/icon_43.png
+    - assets/icons/icon_44.png
+    - assets/icons/icon_45.png
+    - assets/icons/icon_46.png
+    - assets/icons/icon_47.png
+    - assets/icons/icon_48.png
+    - assets/icons/icon_49.png
+    - assets/icons/icon_50.png
+    - assets/icons/icon_51.png
+    - assets/icons/icon_52.png
+    - assets/icons/icon_53.png
+    - assets/icons/icon_54.png
+    - assets/icons/icon_55.png
+    - assets/icons/icon_56.png
+    - assets/icons/icon_57.png
+    - assets/icons/icon_58.png
+    - assets/icons/icon_59.png
+    - assets/icons/icon_60.png
+    - assets/icons/icon_61.png
+    - assets/icons/icon_62.png
+    - assets/icons/icon_63.png
+    - assets/icons/icon_64.png
+    - assets/icons/icon_65.png
+    - assets/icons/icon_66.png
+    - assets/icons/icon_67.png
+    - assets/icons/icon_68.png
+    - assets/icons/icon_69.png
+    - assets/icons/icon_70.png
+    - assets/icons/icon_71.png
+    - assets/icons/icon_72.png
+    - assets/icons/icon_73.png
+    - assets/icons/icon_74.png
+   
+
+   
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
